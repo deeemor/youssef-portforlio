@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Healthcare Management & Communication Platform",
     description: "FYMove is a healthcare web platform for patients and doctors. It includes dashboards for both, real-time chat between patients and doctors, doctor-to-doctor chat, appointment booking, and email notifications. The application features a sleek, responsive interface built with modern full-stack technologies. Users can also browse a diverse collection of exercises with detailed information like targeted muscles, equipment, and exercise type.",
-    image: "public/Fymove.png",
+    image: "/Fymove.png",
     tags: ["Next.js", "Tailwind CSS", "Express", "TypeScript" , "MongoDb" ,"Node.js" , "Rest API" ,"MERN STACK"],
     github: "https://github.com/deeemor/nextjs-fymove",
     live: "https://fymove.vercel.app/",
@@ -14,19 +14,19 @@ const projects = [
   {
     title: "3D Portfolio Website",
     description: "Modern portfolio with Three.js animations, interactive UI elements, and responsive design.",
-    image: "public/youssef.png",
+    image: "/youssef.png",
     tags: ["React", "Three.js", "Tailwind CSS", "Framer Motion" , "Vite" ],
     github: "https://github.com/yourusername/portfolio",
-    live: "https://your-portfolio.com",
+    live: "https://youssef-slimani.vercel.app/",
     featured: true
   },
   {
     title: "Online Coaching Platfrom (soon)",
     description: "Full-stack Online Coaching platform with real-time analytics, inventory management, and admin dashboard.",
-    image: "public/Fitdemor.png",
+    image: "/Fitdemor.png",
     tags: ["Next.js", "Tailwind CSS", "Express", "TypeScript" , "MongoDb" ,"Node.js" , "Rest API" ,"MERN STACK"],
-    github: "https://github.com/yourusername/ecommerce",
-    live: "https://your-ecommerce.com"
+    github: "#",
+    live: "#"
   }
 ];
 
