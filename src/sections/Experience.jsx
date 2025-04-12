@@ -7,7 +7,7 @@ const workExperiences = [
     pos: "Software entwicklung with Odoo / Python  ",
     duration: "2023.01 - 2023.04",
     location: "Sousse",
-    icon: "public/hahaha.jpg",
+    icon: "/hahaha.jpg",
     href: "#",
     title: "Entwicklung von Odoo-Modulen für Fitnessstudio-Management – genutzt von einem großen Trainerteam im laufenden Betrieb",
     achievements: [
