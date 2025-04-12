@@ -1,0 +1,22 @@
+{
+    "name": "Shantanu | Portfolio",
+    "short_name": "Shantanu",
+    "description": "Self crafted 3D portfolio made with React.js and Three.js",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#121212",
+    "theme_color": "#121212",
+    "icons": [
+      {
+        "src": "/assets/s192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/s512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
