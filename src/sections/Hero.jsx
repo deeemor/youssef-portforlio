@@ -55,7 +55,7 @@ const Hero = () => {
               className="mb-6"
             >
               <h1 className="text-4xl sm:text-4xl font-bold text-white mb-6 font-generalsans tracking-tight">
-                Hi, I'm{" "}
+                Hi, ich bin{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400">
                   Youssef Slimani
                 </span>
@@ -84,9 +84,9 @@ const Hero = () => {
             >
               Building{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400">
-                Digital Experiences
+                 Digitale Erlebnisse schaffen
               </span>{" "}
-              that make a difference
+               die einen Unterschied machen
             </motion.p>
           </div>
         </motion.div>
@@ -146,7 +146,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
             >
               <a href={pdf} target="_blank" rel="noreferrer" className="w-fit">
-                <Button name="Download Resume" isBeam containerClass="sm:w-60" />
+                <Button name="Lebenslauf" isBeam containerClass="sm:w-60" />
               </a>
             </motion.div>
           </motion.div>

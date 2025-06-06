@@ -3,11 +3,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Github, Home, User, Briefcase, Mail, Code, ExternalLink } from 'lucide-react';
 
 const navItems = [
-  { id: 'home', name: 'Home', href: '#home', icon: <Home className="w-4 h-4" /> },
-  { id: 'about', name: 'About', href: '#about', icon: <User className="w-4 h-4" /> },
-  { id: 'projects', name: 'Projects', href: '#projects', icon: <Code className="w-4 h-4" /> },
-  { id: 'experience', name: 'Experience', href: '#experience', icon: <Briefcase className="w-4 h-4" /> },
-  { id: 'contact', name: 'Contact', href: '#contact', icon: <Mail className="w-4 h-4" /> }
+  { id: 'home', name: 'Startseite', href: '#home', icon: <Home className="w-4 h-4" /> },
+  { id: 'about', name: 'Über mich', href: '#about', icon: <User className="w-4 h-4" /> },
+  { id: 'projects', name: 'Projekte', href: '#projects', icon: <Code className="w-4 h-4" /> },
+  { id: 'experience', name: 'Erfahrungen', href: '#experience', icon: <Briefcase className="w-4 h-4" /> },
+  { id: 'contact', name: 'Kontakt', href: '#contact', icon: <Mail className="w-4 h-4" /> }
 ];
 
 const NavItems = ({ className = "", onClick }) => {

@@ -53,10 +53,10 @@ const About = () => {
             variants={itemVariants}
           >
             <h2 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text">
-              About Me
+              Über mich
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              Passionate about creating innovative solutions and delivering exceptional user experiences
+              Leidenschaft für die Entwicklung innovativer Lösungen und die Bereitstellung außergewöhnlicher Benutzererlebnisse
             </p>
           </motion.div>
 
@@ -68,17 +68,10 @@ const About = () => {
                   <h3 className="text-xl font-semibold text-white">My Journey</h3>
                 </div>
                 <p className="text-gray-300 leading-relaxed mb-6">
-                Erfahrener und ergebnisorientierter Full-Stack-Entwickler sowie derzeit
-Informatikstudent an der TU Dortmund. Ich verfüge über umfassende
-Kenntnisse in Java, REST-Architekturen, MERN-Stack (MongoDB, Express,
-React, Node.js), Next.js, Odoo sowie modernen Frontend-Technologien
-(React.js, Tailwind CSS, Three.js).             </p>
+              Erfahrener und ergebnisorientierter Full-Stack-Entwickler und derzeit Informatikstudent an der TU Dortmund. Ich verfüge über umfassende Kenntnisse in Java, REST-Architekturen, MERN-Stack (MongoDB, Express, React, Node.js), Next.js, Odoo und modernen Frontend-Technologien.
+         </p>
                 <p className="text-gray-300 leading-relaxed">
-                Mein Ziel ist es, innovative
-Softwarelösungen zu entwickeln, effiziente Systeme zu optimieren und mich
-kontinuierlich weiterzuentwickeln. Neben meiner Leidenschaft für
-Technologie bin ich auch aktiver Bodybuilder – eine Disziplin, die mir
-Ausdauer, Zielstrebigkeit und Fokussierung vermittelt.                   </p>
+               Mein Ziel ist es, innovative Softwarelösungen zu entwickeln, effiziente Systeme zu optimieren und mich kontinuierlich weiterzuentwickeln. Neben meiner Leidenschaft für Technologie</p>
               </div>
             </motion.div>
 
@@ -114,7 +107,7 @@ Ausdauer, Zielstrebigkeit und Fokussierung vermittelt.                   </p>
               <div className="bg-slate-800/50 rounded-2xl p-8 backdrop-blur-sm h-full border border-white/5 hover:border-white/10 transition-colors">
                 <div className="flex items-center gap-3 mb-6">
                   <Wrench className="w-6 h-6 text-green-400" />
-                  <h3 className="text-xl font-semibold text-white">Development Tools</h3>
+                  <h3 className="text-xl font-semibold text-white">Entwicklungstools</h3>
                 </div>
                 <div className="grid grid-cols-4 gap-4">
                   {tools.map((tool) => (
@@ -142,10 +135,10 @@ Ausdauer, Zielstrebigkeit und Fokussierung vermittelt.                   </p>
               <div className="bg-slate-800/50 rounded-2xl p-8 backdrop-blur-sm h-full border border-white/5 hover:border-white/10 transition-colors">
                 <div className="flex items-center gap-3 mb-6">
                   <Laptop className="w-6 h-6 text-yellow-400" />
-                  <h3 className="text-xl font-semibold text-white">Connect With Me</h3>
+                  <h3 className="text-xl font-semibold text-white">Kontakt</h3>
                 </div>
                 <p className="text-gray-300 leading-relaxed mb-6">
-                  I'm always interested in hearing about new projects and opportunities. Let's connect and create something amazing together!
+                Ich freue mich immer über neue Projekte und Möglichkeiten. Lass uns in Kontakt treten und gemeinsam etwas Großartiges schaffen!r!
                 </p>
                 <div className="flex gap-4">
                   <motion.a

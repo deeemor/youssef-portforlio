@@ -3,48 +3,49 @@ import { Briefcase, Calendar, MapPin, ExternalLink } from 'lucide-react';
 
 const workExperiences = [
   {
-    name: " Praktikum :Vega Net ",
-    pos: "Software entwicklung with Odoo / Python  ",
-    duration: "2023.01 - 2023.04",
+    name: "Praktikum: Vega Net",
+    pos: "Softwareentwicklung mit Odoo / Python",
+    duration: "01.2023 - 04.2023",
     location: "Sousse",
     icon: "/hahaha.jpg",
     href: "#",
-    title: "Entwicklung von Odoo-Modulen für Fitnessstudio-Management – genutzt von einem großen Trainerteam im laufenden Betrieb",
+    title: "Entwicklung von Odoo-Modulen für das Fitnessstudio-Management – im Einsatz durch ein großes Trainerteam im laufenden Betrieb",
     achievements: [
-      "Member management & billing automatio",
-      "Trainer scheduling & class allocation",
-      "Real-time analytics for facility usage"
+      "Mitgliederverwaltung & automatisierte Abrechnung",
+      "Planung von Trainern & Zuweisung von Kursen",
+      "Echtzeitanalysen zur Nutzung der Einrichtung"
     ]
   },
   {
     name: "Digital Solutions Lab",
-    pos: "Full Stack Developer — Personal Projects",
+    pos: "Full Stack Entwickler — Persönliche Projekte",
     duration: "2024",
-    location: "Münster, Germany",
+    location: "Münster, Deutschland",
     icon: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=100",
     href: "#",
-    title: "Developed and maintained Web Applications ",
+    title: "Entwicklung und Wartung von Webanwendungen",
     achievements: [
-      "Developed a full-stack web app with Next.js, React, Tailwind CSS, Node.js, and MongoDB, featuring dashboards, real-time chat, and appointment booking",
-      "Integrated external APIs to display exercises with images, muscle groups, and equipment details",
-      "Integrated payment gateways and third-party APIs"
+      "Entwicklung einer Full-Stack-Web-App mit Next.js, React, Tailwind CSS, Node.js und MongoDB mit Dashboards, Echtzeit-Chat und Terminbuchung",
+      "Integration externer APIs zur Anzeige von Übungen mit Bildern, Muskelgruppen und Geräteinformationen",
+      "Integration von Zahlungsschnittstellen und Drittanbieter-APIs"
     ]
   },
   {
     name: "StartUp Vision",
-    pos: "Full stack Developer",
+    pos: "Full Stack Entwickler",
     duration: "2025",
-    location: "Dortmund , Germany",
+    location: "Dortmund, Deutschland",
     icon: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=100",
     href: "https://company3.com",
-    title: "Created  3D Interactive Web Applications",
+    title: "Erstellung interaktiver 3D-Webanwendungen",
     achievements: [
-      "Gained hands-on experience with Three.js and React Three Fiber (R3F), developing interactive 3D scenes, animations, and visual effects integrated within React projects",
-      "Combined Next.js with Three.js to create immersive, web-based 3D experiences, optimizing performance and responsiveness across devices",
-      "Applied custom shaders, lighting, and camera controls to enhance user interactivity and dynamic visual storytelling"
+      "Praktische Erfahrung mit Three.js und React Three Fiber (R3F) bei der Entwicklung interaktiver 3D-Szenen, Animationen und visueller Effekte in React-Projekten",
+      "Kombination von Next.js mit Three.js zur Erstellung immersiver, webbasierter 3D-Erlebnisse mit Leistungsoptimierung auf allen Geräten",
+      "Verwendung benutzerdefinierter Shader, Beleuchtung und Kamerasteuerungen zur Steigerung der Interaktivität und dynamischen visuellen Darstellung"
     ]
   }
 ];
+
 
 const Experience = () => {
   const containerVariants = {
@@ -81,11 +82,10 @@ const Experience = () => {
             variants={itemVariants}
           >
             <h2 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text">
-              Work Experience
+             Praktische Erfahrungen
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              My professional journey in software development and the impact I've made along the way
-            </p>
+              Meine praktische Erfahrugen in der Softwareentwicklung und die Auswirkungen, die ich dabei erzielt habe            </p>
           </motion.div>
 
           <div className="max-w-4xl mx-auto">

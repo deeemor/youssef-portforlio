@@ -64,11 +64,9 @@ const Contact = () => {
             variants={itemVariants}
           >
             <h2 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text">
-              Let's Connect
-            </h2>
+                                            Lass uns verbinden            </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              Have a project in mind? Let's discuss how we can work together to bring your ideas to life.
-            </p>
+              hast du ein Projekt ? lass uns besprechen, wie wir gemeinsam deine Ideen verwirklichen können. </p>
           </motion.div>
 
           <motion.div
@@ -87,8 +85,7 @@ const Contact = () => {
                 <div className="text-center">
                   <h3 className="text-xl font-semibold mb-2">Email Me</h3>
                   <p className="text-gray-400 mb-4">
-                    I'll get back to you as soon as possible
-                  </p>
+                               Ich melde mich so schnell wie möglich bei dir                          </p>
                 </div>
 
                 <button
@@ -98,11 +95,11 @@ const Contact = () => {
                   <span className="text-lg text-gray-300">{email}</span>
                   <span className="flex items-center gap-2 text-gray-400">
                     {hasCopied ? (
-                      <span className="text-green-400">Copied!</span>
+                      <span className="text-green-400">Kopiert!</span>
                     ) : (
                       <>
                         <Copy className="w-5 h-5" />
-                        <span className="hidden group-hover:inline">Copy</span>
+                        <span className="hidden group-hover:inline">Kopie</span>
                       </>
                     )}
                   </span>

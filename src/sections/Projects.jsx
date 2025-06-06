@@ -11,7 +11,17 @@ const projects = [
     live: "https://fymove.vercel.app/",
     featured: true
   },
+ 
   {
+    title: "Online Coaching Platfrom",
+    description: "Full-stack Online Coaching platform with real-time analytics, inventory management, and admin dashboard.",
+    image: "/fit.png",
+    tags: ["Next.js", "Tailwind CSS", "Express", "TypeScript" , "MongoDb" ,"Node.js" , "Rest API" ,"MERN STACK"],
+    github: "https://github.com/deeemor/GYM",
+    live: "https://fitdemor.vercel.app/",
+    featured: true
+  },
+   {
     title: "3D Portfolio Website",
     description: "Modern portfolio with Three.js animations, interactive UI elements, and responsive design.",
     image: "/youssef.png",
@@ -19,15 +29,8 @@ const projects = [
     github: "https://github.com/yourusername/portfolio",
     live: "https://youssef-slimani.vercel.app/",
     featured: true
-  },
-  {
-    title: "Online Coaching Platfrom (soon)",
-    description: "Full-stack Online Coaching platform with real-time analytics, inventory management, and admin dashboard.",
-    image: "/Fitdemor.png",
-    tags: ["Next.js", "Tailwind CSS", "Express", "TypeScript" , "MongoDb" ,"Node.js" , "Rest API" ,"MERN STACK"],
-    github: "#",
-    live: "#"
   }
+  
 ];
 
 const ProjectCard = ({ project, index }) => {
@@ -212,7 +215,7 @@ const Projects = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text">
-            Featured Projects
+            Meine Projekte
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
             A showcase of my recent work in web development and design
@@ -225,7 +228,7 @@ const Projects = () => {
           ))}
         </div>
 
-        {/* <motion.div
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -233,7 +236,7 @@ const Projects = () => {
           className="mt-16 text-center"
         >
           <motion.a
-            href="https://github.com/yourusername"
+            href="https://github.com/deeemor"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-slate-800/50 hover:bg-slate-700/50 rounded-full text-white font-medium transition-colors backdrop-blur-sm border border-white/5 hover:border-white/10"
@@ -241,9 +244,9 @@ const Projects = () => {
             whileTap={{ scale: 0.95 }}
           >
             <Github className="w-5 h-5" />
-            View More Projects
+            Mehr Projekte anschauen
           </motion.a>
-        </motion.div> */}
+        </motion.div> 
       </div>
 
       {/* Background Elements */}
