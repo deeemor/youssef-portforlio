@@ -30,6 +30,15 @@ const projects = [
     live: "https://youssef-slimani.vercel.app/",
     featured: true
   }
+  ,
+   {
+    title: "Kantine Münster",
+    description: "Modern website , interactive UI elements, and responsive design.",
+    image: "/kantine.png",
+    tags: ["React", "NextJs", "Tailwind CSS", "Framer Motion" , "sparti" ],
+    live: "https://kantinee.vercel.app/",
+    featured: true
+  }
   
 ];
 
