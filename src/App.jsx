@@ -1,5 +1,5 @@
-import React from "react";
-import Navbar from "./sections/Navbar";
+import { Analytics } from '@vercel/analytics/react';
+  import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Starfield from "./components/Starfield";
@@ -20,6 +20,7 @@ const App = () => {
         <WorkExperience />
         <Contact />
         <Footer />
+        <Analytics />
       </main>
     </>
   );
